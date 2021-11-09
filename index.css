@@ -36,7 +36,13 @@ ul {
 }
 
 li {
+    width: 50%;
     cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid black;
+    margin: 2px;
+    padding: 2px;
 }
   
 .checked {
@@ -56,5 +62,6 @@ button {
     background: teal;
     color: white;
     margin-left: 20px;
-    vertical-align: middle;
+    margin-bottom: 2 px;
+    /* vertical-align: middle; */
 }
